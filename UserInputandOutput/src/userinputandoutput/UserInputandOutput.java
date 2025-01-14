@@ -27,18 +27,19 @@ public class UserInputandOutput {
         
         System.out.println("You are " + age + " years old.");
         
+         //Reading booleans
+        System.out.println("Are you employed Yes/No");
+        boolean isEmployed = scanner.nextBoolean();
+        
+        System.out.println("Employed: " + isEmployed);
+        
         //Reading double/decimal number
-        System.out.println("Enter your price: ");
-        double price = scanner.nextDouble();
+        System.out.println("Enter your Salary: ");
+        double salary = scanner.nextDouble();
         
-        System.out.println("The price is " + price);
+        System.out.println("Your Salary is " + salary);
         
-        //Reading booleans
-        System.out.println("Are you active True/False");
-        boolean isActive = scanner.nextBoolean();
-        
-        System.out.println("Active" + isActive);
-        
+       
         
     }
     
